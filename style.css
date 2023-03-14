@@ -1,0 +1,46 @@
+body{
+    background-color: darkkhaki;
+}
+.gallery{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 200px 300px 200px;
+    grid-auto-rows: 130px;
+    grid-template-areas: 
+    "fancy video magician"
+    "king video party"
+    "mage video wealthy"
+    "magic video witch";
+    justify-content: center;
+}
+.frogFancy{
+    grid-area: fancy;
+}
+.frogKing{
+    grid-area: king;
+}
+.frogMage{
+    grid-area: mage;
+}
+.frogMagic{
+    grid-area: magic;
+}
+.frogVideo{
+    grid-area: video;
+}
+.frogMagician{
+    grid-area: magician;
+}
+.frogParty{
+    grid-area: party;
+}
+.frogWealthy{
+    grid-area: wealthy;
+}
+.frogWitch{
+    grid-area: witch;
+}
+.gallery img, .gallery video{
+    justify-self: center;
+    align-self: center;
+}
